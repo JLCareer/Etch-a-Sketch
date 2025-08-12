@@ -1,0 +1,32 @@
+.pixel{
+    border-style: solid;
+    border-color: rgba(148, 144, 156, 0.2);
+    border-width: 0.5px;
+    margin: 0;
+    background-color: white;
+    width: 1px;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.row{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
